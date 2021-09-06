@@ -85,9 +85,15 @@ nav ul li{
   padding: 0 !important;
   color: var(--primary-white) !important;
  
-  
-
 }
+
+@media(max-width: 768px){
+  .navbar-brand{
+    width: 7rem;
+  }
+}
+
+
 
 .navbar-nav > li > a.active, .navbar-nav > li > a.active:focus{
   border-top: 0.1875rem solid var(--primary-yellow);
@@ -131,6 +137,14 @@ nav ul li{
 
 }
 
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+}
+
+
+
 
 /********************** TYPED TEXT *************************/
 
@@ -138,6 +152,16 @@ nav ul li{
   font-size: 2rem;
   color: var(--primary-white);
 
+}
+
+@media(max-width: 768px){
+  .main-info h1{
+    font-size: 1.7rem !important;
+  }
+}
+
+.typed-text{
+  font-size: 1.3rem !important;
 }
 
 /********************** HEADER MAIN OFFER BUTTON *************************/
@@ -166,4 +190,10 @@ nav ul li{
   width: 100vh;
   z-index: 1;
 
+}
+
+@media(max-width:768px){
+  .particles-canvas{
+    display: none;
+  }
 }
